@@ -2,7 +2,6 @@ import axios from "axios";
 import React, { useState } from "react";
 
 export const Signin = (props) => {
-  // const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
 
@@ -27,7 +26,6 @@ export const Signin = (props) => {
             console.log(error);
           });
 
-        // setName("");
         setEmail("");
         setPassword("");
       }}

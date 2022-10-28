@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
 
-import logo from "./logo.svg";
 import "./App.css";
 import { Signup } from "./Signup";
 import { Signin } from "./Signin";
