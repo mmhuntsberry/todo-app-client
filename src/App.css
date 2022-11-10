@@ -1,0 +1,50 @@
+.form {
+  display: grid;
+  grid-template-columns: 400px;
+  row-gap: 8px;
+  justify-content: center;
+
+}
+
+.label {
+  font-family: helvetica;
+}
+
+.input {
+  display: block;
+  padding: 6px 0;
+  margin-top: 4px;
+  font-size: 16px;
+  width: calc(100% - 3px);
+}
+
+.submit {
+  width: 100%;
+  text-transform: uppercase;
+  padding: 8px 0;
+  background-color: rgb(0, 0, 0, 0);
+  border: 1px solid black;
+}
+
+.submit:hover {
+  cursor: pointer;
+  background-color: rgb(0, 0, 0, .05);
+}
+
+.todo-container {
+  display: grid;
+  gap: 24px;
+  justify-content: center;
+  grid-template-rows: min-content 1fr;
+}
+
+.list {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+

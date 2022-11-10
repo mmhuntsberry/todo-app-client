@@ -1,0 +1,9 @@
+#root {
+  height: 100%;
+}
+
+body {
+  font-family: helvetica;
+  width: 100vw;
+  height: 100vh;
+}
