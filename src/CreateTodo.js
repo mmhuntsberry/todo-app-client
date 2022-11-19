@@ -1,5 +1,5 @@
 import axios from "axios";
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 
 export const CreateTodo = ({ token, user, todos, setTodos }) => {
   const [todo, setTodo] = useState("");
