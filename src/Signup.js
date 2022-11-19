@@ -29,7 +29,7 @@ export const Signup = () => {
         setName("");
         setEmail("");
         setPassword("");
-        navigate("/signin");
+        navigate("/");
       }}
     >
       <label className="label">
